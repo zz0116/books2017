@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="beerV1:war">
+    <output-path>$PROJECT_DIR$/servlets-jsp/beerV1/target</output-path>
+    <root id="archive" name="beerV1-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="beerV1:war exploded" />
+    </root>
+  </artifact>
+</component>
