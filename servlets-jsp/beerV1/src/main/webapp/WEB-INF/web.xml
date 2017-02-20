@@ -5,16 +5,60 @@
          version="3.1">
 
 
+    <!--<welcome-file-list>-->
+    <!--<welcome-file>form.html</welcome-file>-->
+    <!--</welcome-file-list>-->
+
+    <!--<welcome-file-list>-->
+    <!--<welcome-file>initParams.html</welcome-file>-->
+    <!--</welcome-file-list>-->
+
     <welcome-file-list>
         <welcome-file>form.html</welcome-file>
     </welcome-file-list>
 
 
     <servlet>
+        <servlet-name>ListenerTester</servlet-name>
+        <servlet-class>com.zyz.books2017.controller.ListenerTester</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListenerTester</servlet-name>
+        <url-pattern>/ListenTest.do</url-pattern>
+    </servlet-mapping>
+
+    <context-param>
+        <param-name>breed</param-name>
+        <param-value>Great Dane</param-value>
+    </context-param>
+    <listener>
+        <listener-class>com.zyz.books2017.MyServletContextListener</listener-class>
+    </listener>
+
+
+    <context-param>
+        <param-name>adminEmail</param-name>
+        <param-value>zyz9255@gmail.com</param-value>
+    </context-param>
+    <context-param>
+        <param-name>mainEmail</param-name>
+        <param-value>zyz9255@sina.com</param-value>
+    </context-param>
+
+    <servlet>
+        <servlet-name>BeerParamTests</servlet-name>
+        <servlet-class>com.zyz.books2017.controller.TestInitParams</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BeerParamTests</servlet-name>
+        <url-pattern>/Tester.do</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
         <servlet-name>Ch3 Beer</servlet-name>
         <servlet-class>com.zyz.books2017.controller.BeerSelect</servlet-class>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>Ch3 Beer</servlet-name>
         <url-pattern>/SelectBeer.do</url-pattern>

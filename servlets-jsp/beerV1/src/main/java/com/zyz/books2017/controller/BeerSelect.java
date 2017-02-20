@@ -19,7 +19,7 @@ public class BeerSelect extends HttpServlet {
 						  HttpServletResponse response)
 			throws ServletException, IOException {
 
-//		response.setContentType("text/html");
+        response.setContentType("text/html");
 //		PrintWriter out = response.getWriter();
 //		out.println("Beer Selection Advice<br>");
 
