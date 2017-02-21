@@ -22,6 +22,7 @@ public class ListenerTester extends HttpServlet {
 
         writer.println("<br>");
 
+        // 容器建立一个新的Servlet，这个Servlet得到请求属性“dog”
         Dog dog = (Dog) getServletContext().getAttribute("dog");
 
         writer.println("Dog's breed is: " + dog.getBreed());

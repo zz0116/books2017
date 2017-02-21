@@ -27,6 +27,7 @@
         <url-pattern>/ListenTest.do</url-pattern>
     </servlet-mapping>
 
+    <!-- 容器为上下文初始化参数创建键值对，将键值对的引用交给ServletContext -->
     <context-param>
         <param-name>breed</param-name>
         <param-value>Great Dane</param-value>

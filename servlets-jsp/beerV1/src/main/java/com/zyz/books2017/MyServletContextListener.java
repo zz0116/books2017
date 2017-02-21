@@ -14,6 +14,7 @@ public class MyServletContextListener implements ServletContextListener {
     public void contextInitialized(ServletContextEvent event) {
         ServletContext sc = event.getServletContext();
 
+        // event从ServletContext中拿到breed-Great Dane键值对
         String dogBreed = sc.getInitParameter("breed");
 
         Dog d = new Dog(dogBreed);
