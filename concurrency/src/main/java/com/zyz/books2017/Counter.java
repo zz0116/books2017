@@ -5,6 +5,7 @@ import org.apache.http.annotation.ThreadSafe;
 
 /**
  * Created by ZhangYuanzhuo on 2017/2/19.
+ * 程序清单4-1
  */
 @ThreadSafe
 public final class Counter {
