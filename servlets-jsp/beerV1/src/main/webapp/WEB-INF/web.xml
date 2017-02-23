@@ -5,17 +5,20 @@
          version="3.1">
 
 
-    <!--<welcome-file-list>-->
-    <!--<welcome-file>form.html</welcome-file>-->
-    <!--</welcome-file-list>-->
 
-    <!--<welcome-file-list>-->
-    <!--<welcome-file>initParams.html</welcome-file>-->
-    <!--</welcome-file-list>-->
 
     <welcome-file-list>
         <welcome-file>form.html</welcome-file>
     </welcome-file-list>
+
+    <servlet>
+        <servlet-name>TestAttributes</servlet-name>
+        <servlet-class>com.zyz.books2017.controller.TestAttributes</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TestAttributes</servlet-name>
+        <url-pattern>/Attributes.do</url-pattern>
+    </servlet-mapping>
 
 
     <servlet>
