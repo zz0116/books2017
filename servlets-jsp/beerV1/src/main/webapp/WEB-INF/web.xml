@@ -11,6 +11,46 @@
         <welcome-file>form.html</welcome-file>
     </welcome-file-list>
 
+    <listener>
+        <listener-class>com.zyz.books2017.controller.BeerAttributeListener</listener-class>
+    </listener>
+
+
+    <listener>
+        <listener-class>com.zyz.books2017.controller.BeerSessionCounter</listener-class>
+    </listener>
+
+
+    <servlet>
+        <servlet-name>CheckCookie</servlet-name>
+        <servlet-class>com.zyz.books2017.controller.CheckCookie</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckCookie</servlet-name>
+        <url-pattern>/CheckCookie.do</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>CookieTest</servlet-name>
+        <servlet-class>com.zyz.books2017.controller.CookieTest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CookieTest</servlet-name>
+        <url-pattern>/CookieTest.do</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>BeerTest</servlet-name>
+        <servlet-class>com.zyz.books2017.controller.BeerTest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BeerTest</servlet-name>
+        <url-pattern>/BeerTest.do</url-pattern>
+    </servlet-mapping>
+
+
     <servlet>
         <servlet-name>TestAttributes</servlet-name>
         <servlet-class>com.zyz.books2017.controller.TestAttributes</servlet-class>
