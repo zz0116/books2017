@@ -11,6 +11,17 @@
         <welcome-file>form.html</welcome-file>
     </welcome-file-list>
 
+
+    <servlet>
+        <servlet-name>TestBean</servlet-name>
+        <servlet-class>com.zyz.books2017.controller.TestBean</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TestBean</servlet-name>
+        <url-pattern>/TestBean.do</url-pattern>
+    </servlet-mapping>
+
+
     <listener>
         <listener-class>com.zyz.books2017.controller.BeerAttributeListener</listener-class>
     </listener>
