@@ -100,14 +100,14 @@
         <param-value>zyz9255@sina.com</param-value>
     </context-param>
 
-    <servlet>
-        <servlet-name>BeerParamTests</servlet-name>
-        <servlet-class>com.zyz.books2017.controller.TestInitParams</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>BeerParamTests</servlet-name>
-        <url-pattern>/Tester.do</url-pattern>
-    </servlet-mapping>
+    <!--<servlet>-->
+    <!--<servlet-name>BeerParamTests</servlet-name>-->
+    <!--<servlet-class>com.zyz.books2017.controller.TestInitParams</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet-mapping>-->
+    <!--<servlet-name>BeerParamTests</servlet-name>-->
+    <!--<url-pattern>/Tester.do</url-pattern>-->
+    <!--</servlet-mapping>-->
 
 
     <servlet>
