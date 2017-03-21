@@ -12,6 +12,14 @@
     </welcome-file-list>
 
 
+    <!--<jsp-config>-->
+    <!--<taglib>-->
+    <!--<taglib-uri>randomThings</taglib-uri>-->
+    <!--<taglib-location>/WEB-INF/myFunctions.tld</taglib-location>-->
+    <!--</taglib>-->
+    <!--</jsp-config>-->
+
+
     <servlet>
         <servlet-name>Comments</servlet-name>
         <servlet-class>com.zyz.books2017.controller.UserType</servlet-class>
