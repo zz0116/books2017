@@ -6,17 +6,22 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>--%>
+<%@ taglib prefix="myTags" tagdir="/WEB-INF/tags" %>
 <html>
 <head>
 	<title>Hello</title>
 </head>
 <body>
-Welcome to our page!
+Welcome to our page!<br>
 
-<c:if test="${empty param.userName}">
-	<jsp:forward page="HandleIt.jsp"/>
-</c:if>
+<%--<myTags:Header />--%>
+<myTags:Header subTitle="We take the String out of SOAP."/>
+
+
+<%--<c:if test="${empty param.userName}">--%>
+<%--<jsp:forward page="HandleIt.jsp"/>--%>
+<%--</c:if>--%>
 
 
 <%--<% if (request.getParameter("userName") == null) { %>--%>
@@ -25,6 +30,6 @@ Welcome to our page!
 
 <%--<% } %>--%>
 
-<b>Hello <c:out value="${param.userName}" default="guest"/>.</b>
+<%--<b>Hello <c:out value="${param.userName}" default="guest"/>.</b>--%>
 </body>
 </html>
