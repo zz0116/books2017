@@ -15,8 +15,11 @@
 <body>
 Welcome to our page!<br>
 
+<myTags:Header fontColor="#660099">
+	We take the sting out of SOAP.
+</myTags:Header>
 <%--<myTags:Header />--%>
-<myTags:Header subTitle="We take the String out of SOAP."/>
+<%--<myTags:Header subTitle="We take the String out of SOAP."/>--%>
 
 
 <%--<c:if test="${empty param.userName}">--%>
