@@ -13,10 +13,10 @@
 </head>
 <body>
 
-Simple Tag 1:
-<myTags:simple1/>
+<Strong>Simple Tag 1:</Strong>
+<myTags:simple1/><br>
 
-Simple Tag 2:
+<Strong>Simple Tag 2:</Strong>
 <myTags:simple2>
 	This is the body.
 </myTags:simple2>
