@@ -20,7 +20,7 @@ public class CookieTest extends HttpServlet {
         cookie.setMaxAge(30 * 60);
         resp.addCookie(cookie);
 
-        RequestDispatcher view = req.getRequestDispatcher("cookieresult.jsp");
+        RequestDispatcher view = req.getRequestDispatcher("/testjsp/cookieresult.jsp");
         view.forward(req, resp);
     }
 }

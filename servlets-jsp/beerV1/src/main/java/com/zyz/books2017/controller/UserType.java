@@ -24,7 +24,7 @@ public class UserType extends HttpServlet {
         }
         req.setAttribute("userType", userType);
 
-        RequestDispatcher view = req.getRequestDispatcher("memberComments.jsp");
+        RequestDispatcher view = req.getRequestDispatcher("/commentsjsp/memberComments.jsp");
         view.forward(req, resp);
     }
 }

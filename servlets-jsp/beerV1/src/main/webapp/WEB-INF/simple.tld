@@ -12,14 +12,14 @@
     <tag>
         <description>worst use of a custom tag</description>
         <name>simple1</name>
-        <tag-class>com.zyz.books2017.SimpleTagTest1</tag-class>
+        <tag-class>com.zyz.books2017.taglib.SimpleTagTest1</tag-class>
         <body-content>empty</body-content>
     </tag>
 
     <tag>
         <description>marginally better use of a custom tag</description>
         <name>simple2</name>
-        <tag-class>com.zyz.books2017.SimpleTagTest2</tag-class>
+        <tag-class>com.zyz.books2017.taglib.SimpleTagTest2</tag-class>
         <body-content>scriptless</body-content>
     </tag>
 </taglib>

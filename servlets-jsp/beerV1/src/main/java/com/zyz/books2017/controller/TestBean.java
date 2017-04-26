@@ -25,7 +25,7 @@ public class TestBean extends HttpServlet {
 //
 //        req.setAttribute("person", p);
 
-        RequestDispatcher view = req.getRequestDispatcher("TestBean.jsp");
+        RequestDispatcher view = req.getRequestDispatcher("/testjsp/TestBean.jsp");
         view.forward(req, resp);
     }
 }

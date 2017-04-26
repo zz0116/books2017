@@ -22,7 +22,7 @@ public class MovieList extends HttpServlet {
         movieList.add(movie2);
         req.setAttribute("movies", movieList);
 
-        RequestDispatcher view = req.getRequestDispatcher("MovieList.jsp");
+        RequestDispatcher view = req.getRequestDispatcher("/testjsp/MovieList.jsp");
         view.forward(req, resp);
     }
 }

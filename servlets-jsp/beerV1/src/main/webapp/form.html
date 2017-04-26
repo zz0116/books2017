@@ -9,6 +9,9 @@
 <form method="post" action="SelectBeer.do">
   <p>Select beer characteristics</p>
   Color:
+  <!--<formTags:select name='color' size='1'-->
+  <!--optionsList='${applicationScope.colorList}' />-->
+  <!--<br><br>-->
   <select name="color" size="1">
     <option>light</option>
     <option>amber</option>
@@ -89,6 +92,11 @@
 
 <h3>Use Tag</h3>
 <form method="get" action="useTag.jsp">
+  <button type="submit">test</button>
+</form>
+
+<h3>Login</h3>
+<form method="get" action="loginPage.html">
   <button type="submit">test</button>
 </form>
 </body>
