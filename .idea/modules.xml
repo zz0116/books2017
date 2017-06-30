@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/servlets-jsp/beerV1/beerV1.iml" filepath="$PROJECT_DIR$/servlets-jsp/beerV1/beerV1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/books2017.iml" filepath="$PROJECT_DIR$/.idea/books2017.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrency/concurrency.iml" filepath="$PROJECT_DIR$/concurrency/concurrency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/effectiveJava/effectiveJava.iml" filepath="$PROJECT_DIR$/effectiveJava/effectiveJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlets-jsp/jarDownload/jarDownload.iml" filepath="$PROJECT_DIR$/servlets-jsp/jarDownload/jarDownload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learnJVM/learnJVM.iml" filepath="$PROJECT_DIR$/learnJVM/learnJVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learnTomcat/learnTomcat.iml" filepath="$PROJECT_DIR$/learnTomcat/learnTomcat.iml" />
+    </modules>
+  </component>
+</project>
